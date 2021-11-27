@@ -2,4 +2,4 @@
 
     $ git clone hogehoge
 
-    $ yarn start
+    $ yarn install
