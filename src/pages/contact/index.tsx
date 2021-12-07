@@ -1,5 +1,11 @@
+import { Contacts } from "src/components/Contacts";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <div>
+      <Contacts />
+    </div>
+  );
 };
 
 export default Contact;
