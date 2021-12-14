@@ -1,5 +1,5 @@
-import { Header } from "src/layout/Header";
-import { Footer } from "src/layout/Footer";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 
 export const Layout = (props: any) => {
   return (
