@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import { ReactElement, ReactNode } from "react";
 import "tailwindcss/tailwind.css";
 
@@ -14,7 +15,14 @@ type AppPropsWithLayout = AppProps & {
 const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
   const getLayout = Component.getLayout ?? ((page) => page);
 
-  return getLayout(<Component {...pageProps} />);
+  return (
+    <>
+      <Head>
+        <title>next-tailwind</title>
+      </Head>
+      {getLayout(<Component {...pageProps} />)}
+    </>
+  );
 };
 
 export default MyApp;
