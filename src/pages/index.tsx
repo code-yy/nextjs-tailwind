@@ -1,7 +1,7 @@
-import { Index } from "@/components/page/index";
 import { HomeLayout } from "@/components/layout/HomeLayout";
+import { Index } from "@/components/page/index";
 
-const HomePage = () => {
+const HomePage = (): JSX.Element => {
   return <Index />;
 };
 

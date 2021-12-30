@@ -1,7 +1,7 @@
-import { About } from "@/components/page/about";
 import { AboutLayout } from "@/components/layout/AboutLayout";
+import { About } from "@/components/page/about";
 
-const AboutPage = () => {
+const AboutPage = (): JSX.Element => {
   return <About />;
 };
 

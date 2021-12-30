@@ -1,5 +1,5 @@
-import { VFC } from "react";
 import Link from "next/link";
+import { VFC } from "react";
 
 const items = [
   { href: "/", label: "Home" },
