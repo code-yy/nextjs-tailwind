@@ -1,5 +1,5 @@
-import { HomeLayout } from "src/components/layout/HomeLayout";
-import { Index } from "src/components/page/index";
+import { Index } from "@/components/page/index";
+import { HomeLayout } from "@/components/layout/HomeLayout";
 
 const HomePage = () => {
   return <Index />;

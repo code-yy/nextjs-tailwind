@@ -1,7 +1,7 @@
+import { ReactElement, ReactNode } from "react";
 import { NextPage } from "next";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { ReactElement, ReactNode } from "react";
 import "tailwindcss/tailwind.css";
 
 type NextPageWithLayout = NextPage & {

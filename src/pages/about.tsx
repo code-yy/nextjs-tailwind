@@ -1,5 +1,5 @@
-import { AboutLayout } from "src/components/layout/AboutLayout";
-import { About } from "src/components/page/about";
+import { About } from "@/components/page/about";
+import { AboutLayout } from "@/components/layout/AboutLayout";
 
 const AboutPage = () => {
   return <About />;
