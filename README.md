@@ -4,4 +4,5 @@
 - TypeScript
 - Tailwind CSS
 - ESLint
+- Prettier
 - Yarn
